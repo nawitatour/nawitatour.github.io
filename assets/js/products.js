@@ -50,7 +50,9 @@ products.forEach((product) => {
     `
       <div class="product__circle"></div>
       <img src="${product.image}" alt="" class="product__img">
+      /*
       <h3 class="product__title blinking-text">${product.label}</h3>
+      */
       <h3 class="product__title">${product.title}</h3>
       <span class="product__price">${product.price}</span>
       <button class="button--flex product__button" onclick="window.lcation.href='${product.link}'">
