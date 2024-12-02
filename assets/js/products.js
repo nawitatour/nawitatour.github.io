@@ -20,7 +20,7 @@ const products = [
     title: "Nawita - Suvenir Umroh",
     price: "Rp.1 JT",
     link: "https://wa.me/6282311883534?text=Hallo%20admin,%20Saya%20ingin%20bertanya%20mengenai%20Winter%20Camp%202025.%20Bagaimana%20ya%3F",
-  }
+  },
   {
     image: "assets/img/product4.webp",
     label: "NEW!",
