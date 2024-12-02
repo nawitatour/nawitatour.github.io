@@ -47,6 +47,7 @@ products.forEach((product) => {
   productCard.className = "product__card";
 
   productCard.innerHTML = 
+    `
       <div class="product__circle"></div>
       <img src="${product.image}" alt="" class="product__img">
       <h3 class="product__title blinking-text">${product.label}</h3>
