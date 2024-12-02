@@ -52,7 +52,7 @@ products.forEach((product) => {
       <img src="${product.image}" alt="" class="product__img">
       <h3 class="product__title">${product.title}</h3>
       <span class="product__price">${product.price}</span>
-      <button class="button--flex product__button" onclick="window.lcation.href='${product.link}'">
+      <button class="button--flex product__button" onclick="window.location.href='${product.link}'">
         <i class="ri-shopping-bag-line"></i>
       </button>
     `;
