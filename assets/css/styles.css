@@ -246,6 +246,7 @@ body.dark-theme {
   display: flex;
   flex-direction: column;
   row-gap: 1.5rem;
+  white-space: nowrap;
 }
 
 .nav__link{
@@ -987,7 +988,7 @@ body.dark-theme {
   }
   .product__container{
     padding: 4rem 0;
-    grid-template-columns: repeat(3, 185px);
+    grid-template-columns: repeat(2, 185px);
     gap: 4rem 6rem;
   }
   .product__img{
