@@ -4,7 +4,7 @@ const products = [
     image: "assets/img/product1.webp",
     label: "HOT!",
     title: "Nawita - Summer School 2025",
-    price: "Rp.2,9 JT",
+    price: "Rp.8,4 JT",
     link: "https://wa.me/6282311883534?text=Hallo%20admin,%20Saya%20ingin%20bertanya%20mengenai%20regulasi%20dari%20Summer%20School%202025.%20Bagaimana%20ya%3F",
   },
   {
@@ -17,15 +17,15 @@ const products = [
   {
     image: "assets/img/product3.webp",
     label: "",
-    title: "Nawita - Suvenir Umroh",
-    price: "Rp.1 JT",
+    title: "Nawita - Oleh-oleh Umroh Haji",
+    price: "",
     link: "https://wa.me/6282311883534?text=Hallo%20admin,%20Saya%20ingin%20bertanya%20mengenai%20Winter%20Camp%202025.%20Bagaimana%20ya%3F",
   },
   {
     image: "assets/img/product4.webp",
     label: "",
-    title: "Nawita - Suvenir Umroh",
-    price: "Rp.1 JT",
+    title: "Nawita - Layanan Dokumen Perjalanan",
+    price: "",
     link: "https://wa.me/6282311883534?text=Hallo%20admin,%20Saya%20ingin%20bertanya%20mengenai%20Winter%20Camp%202025.%20Bagaimana%20ya%3F",
   },
 ];
