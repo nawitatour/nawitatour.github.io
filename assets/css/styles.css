@@ -535,13 +535,13 @@ body.dark-theme {
 }
 
 .product__circle{
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   background-color: var(--first-color-lighten);
   border-radius: 50%;
   position: absolute;
-  top: 18%;
-  left: 5%;
+  top: 16%;
+  left: 8%;
 }
 
 .product__card:hover .product__img{
