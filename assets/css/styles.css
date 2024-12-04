@@ -125,7 +125,7 @@ textarea {
 .carousel {
   display: flex;
   gap: 20px;
-  width: 200%;
+  max-width: 50%;
 }
 
 .carousel.sliding-transition {
@@ -137,8 +137,6 @@ textarea {
   -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
   border-radius: 4px;
-  width: 100%;
-  max-width: 480px;
 }
 
 .arrow-button {
@@ -173,42 +171,6 @@ span {
 
 .right-arrow {
   right: 20px;
-}
-
-@media (max-width: 768px) {
-  .carousel {
-    gap: 15px;
-  }
-  .carousel-image {
-    max-width: 400px;
-  }
-  .arrow-button {
-    width: 30px;
-    font-size: 24px;
-  }
-}
-
-@media (max-width: 480px) {
-  .carousel {
-    gap: 10px;
-  }
-  .carousel-image {
-    max-width: 100%;
-  }
-  .arrow-button {
-    width: 28px;
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 320px) {
-  .carousel-image {
-    max-width: 100%;
-  }
-  .arrow-button {
-    width: 24px;
-    font-size: 18px;
-  }
 }
 
 body {
