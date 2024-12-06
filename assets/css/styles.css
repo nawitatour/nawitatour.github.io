@@ -119,7 +119,8 @@ textarea {
 }
 
 .carousel.sliding-transition {
-  transition: transform 0.5s;
+  transition: transform 0.4s ease-in-out;
+  will-change: transform;
 }
 
 .carousel-image {
@@ -161,6 +162,32 @@ span {
 
 .right-arrow {
   right: 20px;
+}
+
+#slideshow {
+  transition: opacity 1s ease-in-out; 
+}
+
+.fade-out {
+  opacity: 0; 
+}
+
+.zoomed-image-container {
+  display: none; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.zoomed-image-container img {
+  max-width: 90%;
+  max-height: 90%;
 }
 
 body {
@@ -989,6 +1016,10 @@ body.dark-theme {
 @media screen and (min-width: 767px) {
   body {
     margin: 0;
+  }
+
+  .full-width {
+    margin-top: 80px;
   }
 
   .nav {

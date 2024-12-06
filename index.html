@@ -32,22 +32,13 @@
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="#home" class="nav__link active-link">Beranda</a>
-            </li>
-            <li class="nav__item">
               <a href="#faqs" class="nav__link">FAQs</a>
-            </li>
-            <li class="nav__item">
-              <a href="assets/file/faq.pdf" class="nav__link">FAQs Pdf</a>
             </li>
             <li class="nav__item">
               <a href="#contact" class="nav__link">Hubungi Kami</a>
             </li>
             <li class="nav__item">
               <a href="#products" class="nav__link">Produk</a>
-            </li>
-            <li class="nav__item">
-              <a href="assets/file/company.pdf" class="nav__link">Profil Nawita</a>
             </li>
             <li class="nav__item">
               <a href="#about" class="nav__link">Tentang Kami</a>
@@ -66,12 +57,12 @@
       </nav>
     </header>
     <div>
-      <img class="full-width" src="assets/img/header.webp">
+      <img id="slideshow" class="full-width" src="assets/img/header.webp">
     </div>
     <main class="main">
       <section class="home" id="home">
         <div class="home__container container grid">
-          <img src="assets/img/home.webp" alt="" class="home__img">
+          <img src="assets/img/home.webp" alt="nawita-logo" class="home__img">
           <div class="home__data">
             <h1 class="home__title"> Nawita Tour & Travel</h1>
             <p class="home__description">Layanan Maksimal Ibadah Optimal</p>
@@ -95,7 +86,7 @@
       </section>
       <section class="about section container" id="about">
         <div class="about__container grid">
-          <img src="assets/img/about.webp" alt="" class="about__img">
+          <img src="assets/img/about.webp" alt="nawita-view" class="about__img">
           <div class="about__data">
             <h2 class="section__title about__title"> Siapa Kami & <br> Mengapa Memilih Kami? </h2>
             <p class="about__description"> PT Nawita Internasional Berkah atau NAWITA TOUR adalah perusahaan yang bergerak di bidang yang penyelenggaraan perjalanan ibadah Umroh, Haji dan Wisata halal. Yang berdomisili di Ruko Victoria Hills Business Park Blok 33S. Jl Tole Iskandar No. 33 Pancoran Mas Depok. </p>
@@ -144,13 +135,13 @@
         <br>
         <div class="carousel-container">
           <div class="carousel">
-            <img src="assets/img/product1.webp" alt="Image 1" class='carousel-image'>
-            <img src="assets/img/product2.webp" alt="Image 2" class='carousel-image'>
-            <img src="assets/img/product3.webp" alt="Image 3" class='carousel-image'>
-            <img src="assets/img/product4.webp" alt="Image 4" class='carousel-image'>
-            <img src="assets/img/product5.webp" alt="Image 5" class='carousel-image'>
-            <img src="assets/img/product6.webp" alt="Image 6" class='carousel-image'>
-            <img src="assets/img/product7.webp" alt="Image 7" class='carousel-image'>
+            <img src="assets/img/product1.webp" alt="Image 1" class='carousel-image' onclick="zoomImage(this)">
+            <img src="assets/img/product2.webp" alt="Image 2" class='carousel-image' onclick="zoomImage(this)">
+            <img src="assets/img/product3.webp" alt="Image 3" class='carousel-image' onclick="zoomImage(this)">
+            <img src="assets/img/product4.webp" alt="Image 4" class='carousel-image' onclick="zoomImage(this)">
+            <img src="assets/img/product5.webp" alt="Image 5" class='carousel-image' onclick="zoomImage(this)">
+            <img src="assets/img/product6.webp" alt="Image 6" class='carousel-image' onclick="zoomImage(this)">
+            <img src="assets/img/product7.webp" alt="Image 7" class='carousel-image' onclick="zoomImage(this)">
           </div>
           <button class="arrow-button left-arrow">
             <span>&#8249;</span>
@@ -159,6 +150,9 @@
             <span>&#8250;</span>
           </button>
         </div>
+<div class="zoomed-image-container" id="zoomedImageContainer" onclick="closeZoom()">
+  <img id="zoomedImage" src="" alt="Zoomed Image">
+</div>
       </section>
       <br>
       <section class="questions section" id="faqs">
@@ -223,7 +217,7 @@
             </div>
           </div>
         </div>
-        <h6 class="section__title-flight"> * Butuh FAQ lengkap? Unduh pada bagian menu</h6>
+        <h6 class="section__title-flight"> * Ingin tau FAQ dan profile lebih lengkap? Silahkan unduh <a href="assets/file/faq.pdf">FAQ</a> atau <a href="assets/file/company.pdf">Profile</a></h6>
       </section>
       <section class="contact section container" id="contact">
         <div class="contact__container grid">
@@ -265,13 +259,18 @@
           <ul class="footer__data">
             <li class="footer__information">Ruko Victoria Hills Bussiness Park Blok 33S</li>
             <li class="footer__information">JL. Tole Iskandar No.33</li>
-            <li class="footer__information">Depok, Jawa Barat</li>
+            <li class="footer__information">Depok Jawa Barat</li>
+          </ul><br>
+          <ul class="footer__data">
+            <li class="footer__information">PERUM Permata Pamulang Blok H6 No.1</li>
+            <li class="footer__information">Bakti Jaya. Kec. Setu</li>
+            <li class="footer__information">Kota Tangerang Selatan</li>
           </ul>
         </div>
         <div class="footer__content">
-          <h3 class="footer__title">Hubungi Kami</h3>
+          <h3 class="footer__title">Sosial Media</h3>
           <ul class="footer__data">
-            <li class="footer__information">+62823 1188 3534</li>
+            <!-- <li class="footer__information">+62823 1188 3534</li> -->
             <div class="footer__social">
               <a href="https://www.facebook.com/profile.php?id=61559879434147&mibextid=ZbWKwL" class="footer__social-link">
                 <i class="ri-facebook-fill"></i>
@@ -288,8 +287,8 @@
         <div class="footer__content">
           <h3 class="footer__title"> Kami menerima pembayaran non-tunai </h3>
           <div class="footer__cards">
-            <img src="assets/img/card1.webp" alt="" class="footer__card">
-            <img src="assets/img/card2.webp" alt="" class="footer__card">
+            <img src="assets/img/card1.webp" alt="bsi" class="footer__card">
+            <img src="assets/img/card2.webp" alt="bjb" class="footer__card">
           </div>
         </div>
       </div>

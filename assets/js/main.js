@@ -189,3 +189,37 @@
   		carousel.style.transform = "";
   	}, 500);
   });
+
+function zoomImage(image) {
+  const zoomedImageContainer = document.getElementById('zoomedImageContainer');
+  const zoomedImage = document.getElementById('zoomedImage');
+
+  zoomedImage.src = image.src; 
+  zoomedImageContainer.style.display = 'flex'; 
+}
+
+function closeZoom() {
+  const zoomedImageContainer = document.getElementById('zoomedImageContainer');
+  zoomedImageContainer.style.display = 'none'; 
+}
+
+const imageSlider = [
+  'assets/img/header.webp',
+  'assets/img/header2.webp',
+];
+
+let currentImage = 0;
+
+function changeImage() {
+  const slideshow = document.getElementById('slideshow');
+  
+  slideshow.classList.add('fade-out');
+  setTimeout(() => {
+    currentImage = (currentImage + 1) % imageSlider.length;
+    slideshow.src = imageSlider[currentImage];
+    slideshow.classList.remove('fade-out');
+  }, 1000); 
+
+}
+
+setInterval(changeImage, 5000);
