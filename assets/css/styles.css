@@ -137,7 +137,6 @@ textarea {
 .carousel {
   display: flex;
   gap: 20px;
-  max-width: 50%;
 }
 
 .carousel.sliding-transition {
@@ -150,6 +149,8 @@ textarea {
   -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
   border-radius: 4px;
+  width: 380px;
+  height: auto;
 }
 
 .arrow-button {
