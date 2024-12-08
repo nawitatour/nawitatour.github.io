@@ -1,27 +1,12 @@
 window.onload = function() {
-	var modal = document.getElementById("promoModal");
-	var span = document.getElementById("closeModal");
+  setTimeout(function() {
+    var notification = document.getElementById("notification");
+    notification.style.display = "block";
 
-	modal.style.visibility = "hidden";
-	modal.style.opacity = "0";
-
-	setTimeout(function() {
-		modal.style.visibility = "visible";
-		modal.style.opacity = "1";
-		modal.style.transition = "opacity 0.3s ease";
-	}, 5000);
-
-	span.onclick = function() {
-		modal.style.visibility = "hidden";
-		modal.style.opacity = "0";
-	}
-
-	window.onclick = function(event) {
-		if (event.target == modal) {
-			modal.style.visibility = "hidden";
-			modal.style.opacity = "0";
-		}
-	}
+    setTimeout(function() {
+      notification.style.display = "none";
+    }, 6000); 
+  }, 4000);
 }
 
 const navMenu = document.getElementById('nav-menu'),
@@ -212,23 +197,20 @@ function closeZoom() {
 	zoomedImageContainer.style.display = 'none';
 }
 
+/* Ganti video bre kwkwkw
 const imageSlider = [
 	'assets/img/header.webp',
 	'assets/img/header2.webp',
 ];
-
 let currentImage = 0;
-
 function changeImage() {
 	const slideshow = document.getElementById('slideshow');
-
 	slideshow.classList.add('fade-out');
 	setTimeout(() => {
 		currentImage = (currentImage + 1) % imageSlider.length;
 		slideshow.src = imageSlider[currentImage];
 		slideshow.classList.remove('fade-out');
 	}, 1000);
-
 }
-
 setInterval(changeImage, 5000);
+*/
