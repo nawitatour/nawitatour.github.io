@@ -171,15 +171,10 @@ textarea {
   opacity: 1; 
 }
 
-@media (max-width: 766px) {
-  .grid-container {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (min-width: 992px) {
+@media (min-width: 767px) {
   .grid-container {
     grid-template-columns: 1fr 1fr; 
+    width: 60%;
   }
 }
 
