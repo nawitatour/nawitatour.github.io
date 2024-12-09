@@ -137,7 +137,7 @@ textarea {
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
   gap: 19px; 
   padding: 0; 
-  width: 90%; 
+  width: 80%; 
   max-width: 800px; 
 }
 
@@ -146,7 +146,7 @@ textarea {
 }
 
 .effect-apollo img {
-  width: 100%; 
+  width: 80%; 
   border-radius: 4px;
   display: block; 
   transition: transform 0.4s ease, filter 0.4s ease;
@@ -156,7 +156,7 @@ textarea {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 80%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5); 
   opacity: 0;
@@ -507,6 +507,21 @@ body.dark-theme {
 
 .home__description {
   margin-bottom: var(--mb-2-5);
+  animation: blink 2.6s ease-in-out infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .home__social {
