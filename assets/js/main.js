@@ -92,6 +92,7 @@ function scrollUp() {
 }
 window.addEventListener('scroll', scrollUp)
 
+/* Matiin light-mode ya bre kwkw.
 const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
 const iconTheme = 'ri-sun-line'
@@ -113,6 +114,16 @@ themeButton.addEventListener('click', () => {
 	localStorage.setItem('selected-theme', getCurrentTheme())
 	localStorage.setItem('selected-icon', getCurrentIcon())
 })
+*/
+
+const themeButton = document.getElementById('theme-button');
+const darkTheme = 'dark-theme';
+const iconTheme = 'ri-sun-line';
+
+document.body.classList.add(darkTheme);
+themeButton.classList.add(iconTheme); 
+
+themeButton.style.display = 'none';  
 
 const sr = ScrollReveal({
 	origin: 'top',
@@ -181,7 +192,7 @@ rightArrow.addEventListener("click", () => {
 		carousel.appendChild(images[prevIndex]);
 		carousel.classList.remove("sliding-transition");
 		carousel.style.transform = "";
-	}, 500);
+	}, 700);
 });
 
 function zoomImage(image) {
