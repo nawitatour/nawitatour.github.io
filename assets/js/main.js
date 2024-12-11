@@ -225,3 +225,9 @@ function changeImage() {
 }
 setInterval(changeImage, 5000);
 */
+
+const telpWa = document.getElementById('telp-wa');
+
+telpWa.addEventListener('click', () => {
+  window.location.href ="https://wa.me/6282311883534/";
+})
