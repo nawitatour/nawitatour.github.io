@@ -200,7 +200,7 @@ textarea {
   -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
   border-radius: 4px;
-  width: 424px;
+  width: 420px;
   height: auto;
   object-fit: cover;
 }
@@ -717,6 +717,7 @@ body.dark-theme {
   color: var(--title-color);
 }
 
+/*
 @keyframes blink {
   0% {
     opacity: 1;
@@ -732,6 +733,7 @@ body.dark-theme {
   animation: blink 2s infinite;
   color: rgb(228, 52, 140);
 }
+*/
 
 .product__title {
   margin-bottom: 0.25rem;
