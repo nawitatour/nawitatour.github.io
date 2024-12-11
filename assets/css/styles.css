@@ -344,7 +344,6 @@ body.dark-theme {
 }
 
 .section__title-flight {
-  font-size: var(--smaller-font-size);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-2);
   line-height: 100%;
