@@ -494,7 +494,8 @@ body.dark-theme {
 }
 
 .home__img {
-  width: 200px;
+  width: 100%;
+  height: auto;
   justify-self: center;
   margin-bottom: -100px;
 }
