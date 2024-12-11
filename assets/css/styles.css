@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'poppins';
+  font-family: 'Poppins';
   src: url('../fonts/poppins-regular.woff2') format('woff2'),
        url('../fonts/poppins-regular.woff') format('woff'),
        url('../fonts/poppins-regular.ttf') format('truetype');
@@ -8,7 +8,7 @@
 }
 
 @font-face {
-  font-family: 'poppins';
+  font-family: 'Poppins';
   src: url('../fonts/poppins-bold.woff2') format('woff2'),
        url('../fonts/poppins-bold.woff') format('woff'),
        url('../fonts/poppins-bold.ttf') format('truetype');
@@ -17,7 +17,7 @@
 }
 
 @font-face {
-  font-family: 'poppins';
+  font-family: 'Poppins';
   src: url('../fonts/poppins-medium.woff2') format('woff2'),
        url('../fonts/poppins-medium.woff') format('woff'),
        url('../fonts/poppins-medium.ttf') format('truetype');
@@ -146,7 +146,7 @@ textarea {
 
 .effect-apollo img {
   width: 100%; 
-  border-radius: 12px;
+  border-radius: 4px;
   display: block; 
   transition: transform 0.4s ease, filter 0.4s ease;
 }
@@ -157,7 +157,7 @@ textarea {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5); 
+  background: rgba(146, 125, 7, 0.5); 
   opacity: 0;
   transition: opacity 0.4s ease;
 }
