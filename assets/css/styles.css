@@ -5,7 +5,7 @@
        url('../fonts/poppins-regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  font-display: swap; /* Menambahkan font-display */
+  font-display: swap; 
 }
 
 @font-face {
