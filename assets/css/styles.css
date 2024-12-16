@@ -95,6 +95,10 @@ textarea {
   font-size: var(--normal-font-size);
 }
 
+#spinner {
+  display: none;
+}
+
 #notification {
   display: none; 
   position: fixed;
