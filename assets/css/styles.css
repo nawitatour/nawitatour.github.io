@@ -95,9 +95,13 @@ textarea {
   font-size: var(--normal-font-size);
 }
 
-#spinner {
-  display: none;
-}
+video::-webkit-media-controls {
+         visibility: hidden;
+    }
+
+    video::-webkit-media-controls-enclosure {
+         visibility: visible;
+    }
 
 #notification {
   display: none; 
