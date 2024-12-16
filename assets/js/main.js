@@ -1,3 +1,4 @@
+/*
 window.onload = function() {
   setTimeout(function() {
     var notification = document.getElementById("notification");
@@ -8,6 +9,7 @@ window.onload = function() {
     }, 6000); 
   }, 4000);
 }
+*/
 
 const navMenu = document.getElementById('nav-menu'),
 	navToggle = document.getElementById('nav-toggle'),
