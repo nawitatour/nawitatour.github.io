@@ -11,6 +11,16 @@ window.onload = function() {
 }
 */
 
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/6760d50b49e2fd8dfef93aee/1if940dlg';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+
 const navMenu = document.getElementById('nav-menu'),
 	navToggle = document.getElementById('nav-toggle'),
 	navClose = document.getElementById('nav-close')
@@ -87,12 +97,14 @@ function scrollActive() {
 	});
 }
 
+/*
 function scrollUp() {
 	const scrollUp = document.getElementById('scroll-up');
 	if (this.scrollY >= 400) scrollUp.classList.add('show-scroll');
 	else scrollUp.classList.remove('show-scroll')
 }
 window.addEventListener('scroll', scrollUp)
+*/
 
 /* Matiin light-mode ya bre kwkw.
 const themeButton = document.getElementById('theme-button')
