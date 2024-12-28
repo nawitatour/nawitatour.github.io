@@ -5,25 +5,9 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
 <url>
   <loc>https://nawitatour.com/</loc>
   <lastmod>2024-12-11T09:47:49+00:00</lastmod>
   <priority>1.00</priority>
 </url>
-<!--
-<url>
-  <loc>https://nawitatour.com/assets/file/faq.pdf</loc>
-  <lastmod>2024-12-11T09:47:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://nawitatour.com/assets/file/company.pdf</loc>
-  <lastmod>2024-12-11T09:47:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
--->
-
-
 </urlset>
