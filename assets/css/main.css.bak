@@ -827,7 +827,7 @@ section,
 
 .hero h2 {
   margin: 0;
-  font-size: 56px;
+  font-size: 48px;
   font-weight: 700;
   font-family: var(--nav-font);
 }
